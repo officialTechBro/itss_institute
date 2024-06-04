@@ -12,7 +12,7 @@ export const COURSE = [
     'T24 Core Banking Application',
     'Web Application Development with Python',
     'Network Specialist',
-    'DIploma in Software Engineering',
+    'Diploma in Software Engineering',
     'Web Development with PHP & SQL',
 ]
 
