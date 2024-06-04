@@ -36,10 +36,10 @@ const CareerPage = () => {
         <div className="mt-20 px-4">
         <h1 className="text-blue-950 text-2xl text-center font-bold font-sans tracking-wide md:text-4xl lg:text-6xl" id="roles">Our Roles</h1>
         <div className="my-6">
-          {OPENINGS.map((name) => (
-            <Link href='#' >
-              <div className="max-w-6xl mx-auto">
-                <div className="flex items-center justify-between font-nav px-4 py-6 bg-gray-100 shadow-md rounded-md mt-6 md:max-w-8xl hover:bg-blue-900 hover:text-white">
+          {OPENINGS.map((name, index) => (
+            <Link href='#' key={index} >
+              <div  key={index} className="max-w-6xl mx-auto">
+                <div  key={index} className="flex items-center justify-between font-nav px-4 py-6 bg-gray-100 shadow-md rounded-md mt-6 md:max-w-8xl hover:bg-blue-900 hover:text-white">
                   <h3 className="text-lg">{name.job}</h3>
                   <p className="text-sm">{name.type}</p>
                 </div>
