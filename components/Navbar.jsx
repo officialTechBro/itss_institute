@@ -42,12 +42,12 @@ const Navbar = () => {
                 {/* Navigation */}
                 <div className="hidden md:block md:ml-6">
                     <div className="flex items-center space-x-6">
-                        <Link href='/' className={` ${path === '/' ? 'border-solid border-b-2 border-black' : ''} text-black font-nav font-bold hover:text-gray-400`}>Home</Link>
-                        <Link href='/program' className={` ${path === '/program' ? 'border-solid border-b-2 border-black' : ''} text-black font-nav font-bold hover:text-gray-400`}>Program</Link>
-                        <Link href='/about' className={` ${path === '/about' ? 'border-solid border-b-2 border-black' : ''} text-black font-nav font-bold hover:text-gray-400`}>About Us</Link>
-                        <Link href='/contact' className={` ${path === '/contact' ? 'border-solid border-b-2 border-black' : ''} text-black font-nav font-bold hover:text-gray-400`}>Contact Us</Link>
-                        <Link href='/career' className={` ${path === '/career' ? 'border-solid border-b-2 border-black' : ''} text-black font-nav font-bold hover:text-gray-400`}>Career</Link>
-                        <Link href='/apply' className="py-2 px-6 bg-black text-white font-nav rounded-full transition duration-500 ease-in-out hover:scale-75">Apply</Link>   
+                        <Link href='/' className={` ${path === '/' ? 'border-solid border-b-2 border-blue-900' : ''} text-blue-900 font-nav font-bold hover:text-blue-300`}>Home</Link>
+                        <Link href='/program' className={` ${path === '/program' ? 'border-solid border-b-2 border-blue-900' : ''} text-blue-900 font-nav font-bold hover:text-blue-300`}>Program</Link>
+                        <Link href='/about' className={` ${path === '/about' ? 'border-solid border-b-2 border-blue-900' : ''} text-blue-900 font-nav font-bold hover:text-blue-300`}>About Us</Link>
+                        <Link href='/contact' className={` ${path === '/contact' ? 'border-solid border-b-2 border-blue-900' : ''} text-blue-900 font-nav font-bold hover:text-blue-300`}>Contact Us</Link>
+                        <Link href='/career' className={` ${path === '/career' ? 'border-solid border-b-2 border-blue-900' : ''} text-blue-900 font-nav font-bold hover:text-blue-300`}>Career</Link>
+                        <Link href='/apply' className="py-2 px-6 bg-blue-900 text-white font-nav rounded-full transition duration-500 ease-in-out hover:scale-75">Apply</Link>   
                     </div>
                 </div>
             </div>

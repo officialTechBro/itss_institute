@@ -25,50 +25,50 @@ export const Button = ({text, classes, link}) => {
 
 export const OPENINGS = [
     {
-        job: 'Andriod Engineer',
+        job: 'SQL Instructor',
         type: 'Full Time',
         location: 'Ibadan'
     },
-    {
-        job: 'BankEnd Engineer',
-        type: 'Full Time',
-        location: 'Ibadan'
-    },
-    {
-        job: 'Counselor',
-        type: 'Contract',
-        location: 'Ibadan'
-    },
-    {
-        job: 'Copywriter',
-        type: 'Part Time',
-        location: 'Ibadan'
-    },
-    {
-        job: 'Data Analyst',
-        type: 'Full Time',
-        location: 'Ibadan'
-    },
-    {
-        job: 'Auditor',
-        type: 'Full Time',
-        location: 'Ibadan'
-    },
-    {
-        job: 'Legal Counsel',
-        type: 'Full Time',
-        location: 'Ibadan'
-    },
-    {
-        job: 'Social Media Manager',
-        type: 'Full Time',
-        location: 'Ibadan'
-    },
-    {
-        job: 'Technician',
-        type: 'Contract',
-        location: 'Ibadan'
-    },
+    // {
+    //     job: 'BankEnd Engineer',
+    //     type: 'Full Time',
+    //     location: 'Ibadan'
+    // },
+    // {
+    //     job: 'Counselor',
+    //     type: 'Contract',
+    //     location: 'Ibadan'
+    // },
+    // {
+    //     job: 'Copywriter',
+    //     type: 'Part Time',
+    //     location: 'Ibadan'
+    // },
+    // {
+    //     job: 'Data Analyst',
+    //     type: 'Full Time',
+    //     location: 'Ibadan'
+    // },
+    // {
+    //     job: 'Auditor',
+    //     type: 'Full Time',
+    //     location: 'Ibadan'
+    // },
+    // {
+    //     job: 'Legal Counsel',
+    //     type: 'Full Time',
+    //     location: 'Ibadan'
+    // },
+    // {
+    //     job: 'Social Media Manager',
+    //     type: 'Full Time',
+    //     location: 'Ibadan'
+    // },
+    // {
+    //     job: 'Technician',
+    //     type: 'Contract',
+    //     location: 'Ibadan'
+    // },
 ]
 
 export const Teams = [

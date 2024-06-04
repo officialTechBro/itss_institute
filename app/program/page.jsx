@@ -6,7 +6,7 @@ const ProgramsPage = () => {
   return (
     <section className="px-4 py-6">
       <div className="container max-w-7xl px-6 mx-auto ">
-        <h1 className="text-2xl font-bold tracking-widest font-nav my-12 text-center text-black md:text-4xl">
+        <h1 className="text-2xl font-bold tracking-widest font-nav my-12 text-center text-blue-950 md:text-4xl">
             Our Top Courses
         </h1>
         <ProgramBox1 

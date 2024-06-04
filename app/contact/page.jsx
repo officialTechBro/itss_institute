@@ -5,7 +5,7 @@ import { FaMapMarker, FaGlobe, FaPhone, FaFacebook, FaTwitter, FaLinkedinIn, FaI
 const ContactPage = () => {
   return (
     <div className="mb-4">
-       <div className="h-[300px] md:h-[500px] bg-black text-white">
+       <div className="h-[300px] md:h-[500px] bg-blue-950 text-white">
           <div className="grid grid-cols-1 items-center justify-between gap-10 md:grid-cols-2">
             <div className="p-6">
                 <div className="font-nav px-4 py-6 md:max-w-8xl">
@@ -32,38 +32,38 @@ const ContactPage = () => {
            <div>
               <div className="flex items-center gap-8 mt-4">
                   <FaMapMarker className="h-6 w-6 text-red-500" />
-                  <p className="font-nav text-sm">WestOne building, Opposite Environmental Task force, Agodi GRA, Ibadan</p>
+                  <p className=" text-blue-950 font-nav text-sm">WestOne building, Opposite Environmental Task force, Agodi GRA, Ibadan</p>
               </div>
               <div className="flex items-center gap-8 mt-4">
                   <FaGlobe className="h-6 w-6 text-blue-500" />
-                  <p className="font-nav text-sm">info@itssng.com</p>
+                  <p className=" text-blue-950 font-nav text-sm">info@itssng.com</p>
               </div>
               <div className="flex items-center gap-8 mt-4">
                   <FaPhone className="h-6 w-6 text-black" />
-                  <p className="font-nav text-sm">+234 111 222 3333</p>
+                  <p className=" text-blue-950 font-nav text-sm">+234 111 222 3333</p>
               </div>
               <div className="flex items-center gap-8 mt-4">
                   <FaFacebook className="h-6 w-6 text-blue-700" />
-                  <p className="font-nav text-sm">ITSSC</p>
+                  <p className=" text-blue-950 font-nav text-sm">ITSSC</p>
               </div>
               <div className="flex items-center gap-8 mt-4">
                   <FaInstagram className="h-6 w-6 text-red-700" />
-                  <p className="font-nav text-sm">@itssc</p>
+                  <p className=" text-blue-950 font-nav text-sm">@itssc</p>
               </div>
               <div className="flex items-center gap-8 mt-4">
                   <FaLinkedinIn className="h-6 w-6 text-blue-600" />
-                  <p className="font-nav text-sm">ITSSC</p>
+                  <p className=" text-blue-950 font-nav text-sm">ITSSC</p>
               </div>
               <div className="flex items-center gap-8 mt-4">
                   <FaTwitter className="h-6 w-6 text-black" />
-                  <p className="font-nav text-sm">@itssc</p>
+                  <p className=" text-blue-950 font-nav text-sm">@itssc</p>
               </div>
               </div>
           </div>
           <Image 
             src='/images/map.png'
             alt='teams'
-            className="object-cover h-full w-full p-4"
+            className="object-cover h-full w-full p-4 shadow-md"
             width={0}
             height={0}
             size='100vw'
