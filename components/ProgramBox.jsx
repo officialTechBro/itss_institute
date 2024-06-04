@@ -4,12 +4,12 @@ import Image from "next/image"
 export const ProgramBox1 = ({imageSrc, title, text}) => {
   return (
     <div className="flex flex-col gap-10 items-center justify-center">
-            <div className="relative grid grid-cols-1 items-center justify-around gap-8 p-8 mt-2 lg:grid-cols-2" >
-                <div className="px-4 py-6 flex flex-col items-center justify-center md:block">
+            <div className="relative grid grid-cols-1 items-center justify-around gap-8 mt-2 lg:grid-cols-2" >
+                <div className="py-6 flex flex-col items-center justify-center md:block">
                     <h1 className="text-2xl font-bold tracking-widest font-nav my-4 text-center lg:text-left text-blue-950 md:text-4xl">
                        {title}
                     </h1>
-                    <p className="p-2 max-w-xl tracking-wider text-justify text-blue-950">
+                    <p className="py-2 max-w-2xl tracking-wider text-justify text-blue-950">
                         {text}
                     </p>
                     <Button 
@@ -39,12 +39,12 @@ export const ProgramBox1 = ({imageSrc, title, text}) => {
 export const ProgramBox2 = ({imageSrc, title, text}) => {
   return (
     <div className="flex flex-col gap-10 items-center justify-center">
-            <div className="relative grid grid-cols-1 items-center justify-around gap-8 p-8 mt-2 lg:grid-cols-2" >
-                <div className="px-4 py-6 flex flex-col items-center order-last justify-center md:block">
+            <div className="relative grid grid-cols-1 items-center justify-around gap-8  mt-2 lg:grid-cols-2" >
+                <div className="py-6 flex flex-col items-center order-last justify-center md:block">
                     <h1 className="text-2xl font-bold tracking-widest font-nav my-4 text-center lg:text-right text-blue-950 md:text-4xl">
                        {title}
                     </h1>
-                    <p className="p-2 max-w-xl tracking-wider text-justify text-blue-950">
+                    <p className="py-2 max-w-2xl tracking-wider text-justify text-blue-950">
                         {text}
                     </p>
                     <Button 

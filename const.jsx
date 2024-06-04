@@ -10,9 +10,10 @@ export const COURSE = [
     'Java Programming',
     'C# / .Net',
     'T24 Core Banking Application',
-    'Java Programming',
+    'Web Application Development with Python',
     'Network Specialist',
     'DIploma in Software Engineering',
+    'Web Development with PHP & SQL',
 ]
 
 export const Button = ({text, classes, link}) => {
@@ -29,21 +30,21 @@ export const OPENINGS = [
         type: 'Full Time',
         location: 'Ibadan'
     },
-    // {
-    //     job: 'BankEnd Engineer',
-    //     type: 'Full Time',
-    //     location: 'Ibadan'
-    // },
+    {
+        job: 'BankEnd Engineer',
+        type: 'Full Time',
+        location: 'Ibadan'
+    },
     // {
     //     job: 'Counselor',
     //     type: 'Contract',
     //     location: 'Ibadan'
     // },
-    // {
-    //     job: 'Copywriter',
-    //     type: 'Part Time',
-    //     location: 'Ibadan'
-    // },
+    {
+        job: 'Copywriter',
+        type: 'Part Time',
+        location: 'Ibadan'
+    },
     // {
     //     job: 'Data Analyst',
     //     type: 'Full Time',
