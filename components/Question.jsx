@@ -1,9 +1,9 @@
+import { FaFacebook, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa"
 import Link from "next/link"
-
 
 const Question = () => {
   return (
-    <section className="md:h-[500px] bg-gray-50">
+    <section className="h-full bg-gray-50 mb-8 ">
         <div className="container-xl lg:container m-auto">
             <h1 className="text-2xl font-bold tracking-widest font-nav my-12 text-center text-black md:text-4xl">
                 Talk To Us
@@ -46,12 +46,18 @@ const Question = () => {
                     </form>
                 </div>
                 <div className="px-4 py-2 flex flex-col items-center justify-center md:block">
-                    <h1 className="text-xl font-bold tracking-widest font-nav my-4 text-center text-black md:text-2xl">
-                        Our Office
+                    <h1 className="text-xl font-bold tracking-widest font-nav my-2 text-center text-black md:text-2xl">
+                        Ask for Career Advice
                     </h1>
-                    <p className="p-2 tracking-wider text-center md:text-left">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, voluptatibus nobis! Illo voluptates quam modi? Quam est, quos natus dolorum hic culpa maxime soluta, sit placeat blanditiis officiis asperiores excepturi.
+                    <p className="p-2 tracking-wider text-center md:text-left text-black mb-6">
+                    We love hearing from you! Whether you have a question, feedback, or need assistance, we're here to help. Your thoughts and inquiries are important to us, and we strive to provide the best support possible.
                     </p>
+                    <div className="flex items-center space-x-4 px-4">
+                        <Link href='#'><FaFacebook className="w-8 h-8 ring-1 ring-black p-1 rounded-full ring-offset-2"  /></Link>
+                        <Link href='#'><FaInstagram className="w-8 h-8 ring-1 ring-black p-1 rounded-full ring-offset-2"  /></Link>
+                        <Link href='#'><FaLinkedinIn className="w-8 h-8 ring-1 ring-black p-1 rounded-full ring-offset-2"  /></Link>
+                        <Link href='#'><FaTwitter className="w-8 h-8 ring-1 ring-black p-1 rounded-full ring-offset-2"  /></Link>
+                    </div>
                 </div>
             </div>
         </div>
