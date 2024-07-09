@@ -1,4 +1,9 @@
-import { Teams } from "@/const"
+
+export const metadata = {
+  title: 'About ITSSC',
+  description: 'Learn more about ITSSC',
+  keywords: 'Aptech, ITSSC, Training Center, Agodi Ibadan, About ITSSC, Coding School, Tech, IT, Programming, Computer School'
+}
 
 const AboutPage = () => {
   return (

@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar'
 export const metadata = {
     title: 'ITSSC',
     description: 'Become An IT Pro',
-    keywords: 'IT, Training, ITSS, T24, Infinity, WebDevelopment'
+    keywords: 'Aptech, ITSSC, Training Center, Agodi Ibadan, Kids Can Code, Coding School, Tech, IT, Programming, Computer School'
 }
 
 const MainLayout = ({children}) => {

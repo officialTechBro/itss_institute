@@ -26,25 +26,25 @@ export const Button = ({text, classes, link}) => {
 
 export const OPENINGS = [
     {
-        job: 'SQL Instructor',
+        job: 'Social Media Manager',
         type: 'Full Time',
         location: 'Ibadan'
     },
-    {
-        job: 'BankEnd Engineer',
-        type: 'Full Time',
-        location: 'Ibadan'
-    },
+    // {
+    //     job: 'BankEnd Engineer',
+    //     type: 'Full Time',
+    //     location: 'Ibadan'
+    // },
     // {
     //     job: 'Counselor',
     //     type: 'Contract',
     //     location: 'Ibadan'
     // },
-    {
-        job: 'Copywriter',
-        type: 'Part Time',
-        location: 'Ibadan'
-    },
+    // {
+    //     job: 'Copywriter',
+    //     type: 'Part Time',
+    //     location: 'Ibadan'
+    // },
     // {
     //     job: 'Data Analyst',
     //     type: 'Full Time',
@@ -105,5 +105,18 @@ export const Teams = [
         name: 'Miss. Opeyemi Oladeji',
         position: 'PM Instructor'
     },
+]
+
+export const KIDS_COURSES = [
+    'Web Design',
+    'Basic Prgramming',
+    'UI / UX Development',
+    'Microsoft Word',
+    'Microsoft Advance Excel',
+    'Microsoft Powerpoint for Presentation',
+    'Microsoft Automation',
+    'Graphics Design',
+    'Cyber Security',
+    'IOT',
 ]
 

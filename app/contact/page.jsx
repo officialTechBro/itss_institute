@@ -1,5 +1,6 @@
 import Image from "next/image"
-import { FaMapMarker, FaGlobe, FaPhone, FaFacebook, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa"
+import { FaMapMarker, FaEnvelope, FaPhoneAlt, FaFacebook, FaLinkedinIn, FaInstagram } from "react-icons/fa"
+import { FaXTwitter, FaLocationDot } from "react-icons/fa6";
 
 
 const ContactPage = () => {
@@ -31,32 +32,43 @@ const ContactPage = () => {
           <h1 className="text-2xl py-2 text-center font-bold font-sans tracking-wide md:text-4xl md:text-left">Contact Us at</h1>
            <div>
               <div className="flex items-center gap-8 mt-4">
-                  <FaMapMarker className="h-6 w-6 text-red-500" />
-                  <p className=" text-blue-950 font-nav text-sm">WestOne building, Opposite Environmental Task force, Agodi GRA, Ibadan</p>
+                  <FaLocationDot className="h-6 w-6 text-black-500" />
+                  <p className="text-blue-950 font-nav text-sm" style={{ whiteSpace: 'pre-wrap' }}>
+                WestOne building, Opposite Oyo State Environmental Task force, {'\n'}
+                Agodi GRA, Ibadan, Oyo State
+            </p>              </div>
+              <div className="flex items-center gap-8 mt-4">
+                  <FaEnvelope className="h-6 w-6 text-black-500" />
+                  <a href="mailto:info@itssng.com" className="text-blue-950 font-nav text-sm">
+                info@itssng.com
+            </a>
+                 
               </div>
               <div className="flex items-center gap-8 mt-4">
-                  <FaGlobe className="h-6 w-6 text-blue-500" />
-                  <p className=" text-blue-950 font-nav text-sm">info@itssng.com</p>
+                  <FaPhoneAlt className="h-6 w-6 text-black" />
+                  <p className=" text-blue-950 font-nav text-sm">+234 707-049-1555</p>
               </div>
+              {/*
               <div className="flex items-center gap-8 mt-4">
-                  <FaPhone className="h-6 w-6 text-black" />
-                  <p className=" text-blue-950 font-nav text-sm">+234 111 222 3333</p>
-              </div>
-              <div className="flex items-center gap-8 mt-4">
-                  <FaFacebook className="h-6 w-6 text-blue-700" />
+                  <FaFacebook className="h-6 w-6 text-black-700" />
                   <p className=" text-blue-950 font-nav text-sm">ITSSC</p>
               </div>
+               */}
               <div className="flex items-center gap-8 mt-4">
-                  <FaInstagram className="h-6 w-6 text-red-700" />
-                  <p className=" text-blue-950 font-nav text-sm">@itssc</p>
+                  <FaInstagram className="h-6 w-6 text-black-700" />
+                  <a href="https://www.instagram.com/officialitssc/" target="_blank" rel="noopener noreferrer" 
+                  className="text-blue-950 font-nav text-sm"> officialitssc</a>
               </div>
+              {/*
               <div className="flex items-center gap-8 mt-4">
                   <FaLinkedinIn className="h-6 w-6 text-blue-600" />
                   <p className=" text-blue-950 font-nav text-sm">ITSSC</p>
               </div>
+              */}
               <div className="flex items-center gap-8 mt-4">
-                  <FaTwitter className="h-6 w-6 text-black" />
-                  <p className=" text-blue-950 font-nav text-sm">@itssc</p>
+                  <FaXTwitter className="h-6 w-6 text-black" />
+                  <a   href="https://twitter.com/officialitssc" target="_blank" rel="noopener noreferrer"
+                className="text-blue-950 font-nav text-sm" > officialitssc </a>
               </div>
               </div>
           </div>

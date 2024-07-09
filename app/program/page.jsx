@@ -1,4 +1,4 @@
-import Image from "next/image"
+import { Button } from "@/const"
 import { ProgramBox1, ProgramBox2 } from "@/components/ProgramBox"
 import Footer from "@/components/Footer"
 
@@ -39,6 +39,13 @@ const ProgramsPage = () => {
           title = 'T24 Core Banking'
           text = 'T24, developed by Temenos Group, is a comprehensive core banking software suite designed to cater to the needs of financial institutions of all sizes, from small community banks to large multinational banks. It features a modular architecture, allowing banks to customize and scale the system according to their specific needs. With real-time transaction processing, multi-channel support, and robust regulatory compliance tools, T24 enhances operational efficiency and customer experience. Its extensibility through APIs enables seamless integration with other systems, making it a versatile and future-proof solution for modern banking challenges.'
         />
+        <div className="flex items-center justify-center my-6">
+          <Button 
+              classes = 'border-solid border-2 text-sm tracking-widest bg-blue-900 text-white px-6 py-2 rounded-full mt-4 md:w-full lg:w-[300px] md:py-4 md:text-lg text-center transition duration-500 ease-in-out hover:bg-white hover:text-blue-950'
+              link = 'https://forms.gle/JsUVMFHnnuoxLTeM9'
+              text = 'Apply Now'
+          />
+        </div>
       </div>
       <Footer />
     </section>

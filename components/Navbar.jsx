@@ -47,6 +47,7 @@ const Navbar = () => {
                         <Link href='/about' className={` ${path === '/about' ? 'border-solid border-b-2 border-blue-900' : ''} text-blue-900 font-nav font-bold hover:text-blue-300`}>About Us</Link>
                         <Link href='/contact' className={` ${path === '/contact' ? 'border-solid border-b-2 border-blue-900' : ''} text-blue-900 font-nav font-bold hover:text-blue-300`}>Contact Us</Link>
                         <Link href='/career' className={` ${path === '/career' ? 'border-solid border-b-2 border-blue-900' : ''} text-blue-900 font-nav font-bold hover:text-blue-300`}>Career</Link>
+                        <Link href='/kiddies' className={` ${path === '/kiddies' ? 'border-solid border-b-2 border-blue-900' : ''} text-blue-900 font-nav font-bold hover:text-blue-300`}>kiddies</Link>
                         <Link href='/apply' className="py-2 px-6 bg-blue-900 text-white font-nav rounded-full transition duration-500 ease-in-out hover:scale-75">Apply</Link>   
                     </div>
                 </div>
@@ -70,6 +71,9 @@ const Navbar = () => {
                     </Link>
                     <Link href='/career' className="text-black font-nav font-bold hover:bg-gray-400 px-3 py-2">
                         Career
+                    </Link>
+                    <Link href='/kiddies' className="text-black font-nav font-bold hover:bg-gray-400 px-3 py-2">
+                        Kiddies
                     </Link>
                     <Link href='/apply' className="py-2 px-6 bg-black text-white font-nav rounded-full w-[100px] transition duration-500 ease-in-out hover:scale-75">
                         Apply
